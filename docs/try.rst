@@ -1,0 +1,21 @@
+try
+=====
+
+
+.. req:: Basic need example
+    :id: basic_example
+
+    A basic example of a need item.
+
+
+.. tutorial-project:: Our new car
+    :id: T_CAR
+    :tags: tutorial
+    :layout: clean_l
+    :image: _static/car.png
+    :collapse: true
+
+    Presenting the “TeenTrek,” an autonomous driving car tailored for teenagers without a driving license.
+    Equipped with advanced AI navigation and safety protocols, it ensures effortless and secure transportation.
+    The interior boasts entertainment systems, study areas, and social hubs, catering to teen preferences.
+    The TeenTrek fosters independence while prioritizing safety and convenience for young passengers.

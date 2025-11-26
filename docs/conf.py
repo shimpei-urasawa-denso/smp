@@ -23,5 +23,25 @@ language = 'ja'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'furo'
+html_theme = 'classic'
 html_static_path = ['_static']
+
+# -- Options for sphinx-needs ----------------------
+needs_types = [
+    {
+        "directive": "req",
+        "title": "Requirement",
+        "prefix": "R_",
+        "color": "#BFD8D2",
+        "style": "node",
+    },
+    {
+        "directive": "tutorial-project",
+        "title": "Project",
+        "prefix": "P_",  # prefix for auto-generated IDs
+        "style": "rectangle", # style for the type in diagrams
+        "color": "#BFD8D2", # color for the type in diagrams
+    }
+]
+
+
