@@ -15,8 +15,3 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
-
-.. req:: Basic need example
-    :id: basic_example
-
-    A basic example of a need item.
