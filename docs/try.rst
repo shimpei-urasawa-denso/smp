@@ -3,7 +3,7 @@ try
 
 
 .. req:: Basic need example
-    :id: basic_example
+    :id: BASIC_EXAMPLE
 
     A basic example of a need item.
 

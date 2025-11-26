@@ -27,6 +27,12 @@ html_theme = 'classic'
 html_static_path = ['_static']
 
 # -- Options for sphinx-needs ----------------------
+needs_extra_options = [
+   {
+    "name": "image", 
+    "type": "string"
+   }
+]
 needs_types = [
     {
         "directive": "req",
