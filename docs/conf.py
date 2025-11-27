@@ -30,8 +30,9 @@ html_static_path = ['_static']
 needs_extra_options = [
    {
     "name": "image", 
-    "type": "string"
-   }
+    "type": "string",
+   },
+   "author",
 ]
 needs_types = [
     {
@@ -54,7 +55,14 @@ needs_types = [
         "prefix": "P_",  # prefix for auto-generated IDs
         "style": "rectangle", # style for the type in diagrams
         "color": "#BFD8D2", # color for the type in diagrams
-    }
+    },
+    {
+        "directive": "tutorial-test",
+        "title": "test",
+        "prefix": "T_",
+        "color": "##EDCD2",
+        "style": "node",
+    },
 ]
 
 needs_extra_links = [

@@ -4,12 +4,20 @@ try
 
 .. req:: Basic need example
     :id: BASIC_EXAMPLE
+    :status: open
 
     A basic example of a need item.
 
 
+.. req:: tekitou
+    :status: open
+
+    hogehoge
+
+
 .. tutorial-project:: Our new car
     :id: T_CAR
+    :status: in progress
     :tags: tutorial
     :layout: clean_l
     :image: _static/car.png
@@ -56,7 +64,42 @@ The project is described in more detail in :need:`[[title]] <T_CAR>`.
 
 .. spec:: Implement distant detection
    :id: T_DIST
+   :status: open
    :tags: tutorial
    :tutorial_specifies_by: T_SAFE
 
    Software Specification for Distance Detection Algorithm.
+
+
+.. req:: needextend Example 1
+   :id: ETEST001
+   :status: open
+   :author: Foo
+   :tags: tag_1, tag_2
+
+   This requirement got modified.
+
+..    | Status was **open**, now it is :ndf:`copy('status')`.
+..    | Also author got changed from **Foo** to :ndf:`copy('author')`.
+..    | And a tag was added.
+..    | Finally all links got removed.
+
+.. req:: needextend Example 2
+   :id: ETEST002
+   :tags: extend_example
+   :status: open
+
+   Contents
+
+.. needextend:: ETEST001
+   :status: closed
+   :+author: and me
+
+.. needextend:: <ETEST001>
+   :+tags: new_tag
+
+.. needextend:: id == "ETEST002"
+   :status: New status
+
+.. needextend:: ""extend_example" in tags"
+   :+tags: other
