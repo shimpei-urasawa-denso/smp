@@ -24,3 +24,19 @@ try
 The project is described in more detail in :need:`T_CAR`.
 
 The project is described in more detail in :need:`[[title]] <T_CAR>`.
+
+.. req:: Safety Features
+   :id: T_SAFE
+   :tags: tutorial
+   :tutorial_required_by: T_CAR
+
+   The car must include advanced safety features such as automatic braking, collision avoidance systems, and adaptive cruise control to ensure the safety of teenage drivers.
+
+.. req:: Connectivity and Entertainment
+   :id: T_CONNECT
+   :tags: tutorial
+   :tutorial_required_by: T_CAR
+
+   The car should be equipped with built-in Wi-Fi, Bluetooth connectivity, and compatibility with smartphone integration systems to enable seamless communication and entertainment for teenagers on the go.
+
+

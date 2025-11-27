@@ -50,4 +50,13 @@ needs_types = [
     }
 ]
 
+needs_extra_links = [
+  {
+    "option": "tutorial_required_by",
+    "incoming": "requires",  # text to describe incoming links
+    "outgoing": "required by",  # text to describe outgoing links
+    "style": "#00AA00",  # color for the link in diagrams
+  },
+]
+
 
