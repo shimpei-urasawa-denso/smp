@@ -6,6 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import os
+import sys
+
 project = 'test'
 copyright = '2025, s'
 author = 's'
@@ -13,7 +16,7 @@ author = 's'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["sphinx_needs"]
+extensions = ['sphinxcontrib.plantuml', "sphinx_needs", "sphinx.ext.graphviz" ]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -81,3 +84,10 @@ needs_extra_links = [
 ]
 
 
+on_rtd = os.environ.get('READTHEDOCS') == 'True'
+if on_rtd:
+    plantuml = 'java -Djava.awt.headless=true -jar /usr/share/plantuml/plantuml.jar'
+else:
+    plantuml = 'java -jar %s' % os.path.join(os.path.dirname(__file__), "utils", "plantuml.jar")
+
+    plantuml_output_format = 'png'

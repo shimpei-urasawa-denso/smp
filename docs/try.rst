@@ -103,3 +103,39 @@ The project is described in more detail in :need:`[[title]] <T_CAR>`.
 
 .. needextend:: ""extend_example" in tags"
    :+tags: other
+
+
+.. needlist::
+    :tags: tutorial
+    :sort_by: id
+    :show_status:
+
+
+.. needtable::
+    :tags: tutorial
+    :sort: id
+    :columns: id, type, title, status
+    :style: table
+
+
+.. needtable::
+    :tags: tutorial
+    :sort: id
+    :columns: id,type,title,status
+    :style: datatable
+
+
+.. needflow:: Engineering plan to develop a car
+    :alt: Engineering plan to develop a car
+    :root_id: T_CAR
+    
+
+
+    .. :config: lefttoright
+    .. :show_link_names:
+
+
+    .. :border_color:
+    ..     [status == 'open']:#FF0000,
+    ..     [status == 'in progress']:#0000FF,
+    ..     [status == 'closed']:#00FF00

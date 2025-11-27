@@ -9,4 +9,5 @@ dependencies = [
     "sphinx>=8.2.3",
     "sphinx-autobuild>=2025.8.25",
     "sphinx-needs>=6.1.1",
+    "sphinxcontrib-plantuml>=0.31",
 ]
