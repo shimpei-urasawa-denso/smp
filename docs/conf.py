@@ -42,6 +42,13 @@ needs_types = [
         "style": "node",
     },
     {
+        "directive": "spec",
+        "title": "Specification",
+        "prefix": "S_",
+        "color": "##EDCD2",
+        "style": "node",
+    },
+    {
         "directive": "tutorial-project",
         "title": "Project",
         "prefix": "P_",  # prefix for auto-generated IDs
@@ -55,6 +62,12 @@ needs_extra_links = [
     "option": "tutorial_required_by",
     "incoming": "requires",  # text to describe incoming links
     "outgoing": "required by",  # text to describe outgoing links
+    "style": "#00AA00",  # color for the link in diagrams
+  },
+  {
+    "option": "tutorial_specifies_by",
+    "incoming": "specify",  # text to describe incoming links
+    "outgoing": "specified by",  # text to describe outgoing links
     "style": "#00AA00",  # color for the link in diagrams
   },
 ]

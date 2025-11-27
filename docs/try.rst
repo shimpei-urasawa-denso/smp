@@ -40,3 +40,23 @@ The project is described in more detail in :need:`[[title]] <T_CAR>`.
    The car should be equipped with built-in Wi-Fi, Bluetooth connectivity, and compatibility with smartphone integration systems to enable seamless communication and entertainment for teenagers on the go.
 
 
+.. spec:: Implement RADAR system
+   :id: T_RADAR
+   :tags: tutorial
+   :tutorial_specifies_by: T_SAFE
+
+   The RADAR sensor software for the car must accurately detect and track surrounding objects
+   within a specified range. It should employ signal processing algorithms to filter out noise
+   nd interference, ensuring reliable object detection in various weather and road conditions.
+   The software should integrate seamlessly with the car's control system, providing real-time
+   data on detected objects to enable collision avoidance and adaptive cruise control functionalities.
+   Additionally, it should adhere to industry standards for safety and reliability, with robust
+   error handling mechanisms in place.
+
+
+.. spec:: Implement distant detection
+   :id: T_DIST
+   :tags: tutorial
+   :tutorial_specifies_by: T_SAFE
+
+   Software Specification for Distance Detection Algorithm.
