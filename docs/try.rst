@@ -19,3 +19,8 @@ try
     Equipped with advanced AI navigation and safety protocols, it ensures effortless and secure transportation.
     The interior boasts entertainment systems, study areas, and social hubs, catering to teen preferences.
     The TeenTrek fosters independence while prioritizing safety and convenience for young passengers.
+
+
+The project is described in more detail in :need:`T_CAR`.
+
+The project is described in more detail in :need:`[[title]] <T_CAR>`.
